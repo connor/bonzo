@@ -55,10 +55,10 @@ $('p').color('aqua')
 * <a href="#map"><code>bonzo<b>.map(callback, rejext)</b></code></a>
 * <a href="#html"><code>bonzo<b>.html()</b></code></a>
 * <a href="#text"><code>bonzo<b>.text()</b></code></a>
-* <a href="#addclass"><code>bonzo<b>.addClass()</b></code></a>
-* <a href="#removeclass"><code>bonzo<b>.removeClass()</b></code></a>
-* <a href="#hasclass"><code>bonzo<b>.hadClass()</b></code></a>
-* <a href="#toggleclass"><code>bonzo<b>.toggleClass()</b></code></a>
+* <a href="#addClass"><code>bonzo<b>.addClass()</b></code></a>
+* <a href="#removeClass"><code>bonzo<b>.removeClass()</b></code></a>
+* <a href="#hasClass"><code>bonzo<b>.hadClass()</b></code></a>
+* <a href="#toggleClass"><code>bonzo<b>.toggleClass()</b></code></a>
 * <a href="#show"><code>bonzo<b>.show()</b></code></a>
 * <a href="#hide"><code>bonzo<b>.hide()</b></code></a>
 * <a href="#first"><code>bonzo<b>.first()</b></code></a>
@@ -69,39 +69,279 @@ $('p').color('aqua')
 * <a href="#previous"><code>bonzo<b>.previous()</b></code></a>
 * <a href="#parent"><code>bonzo<b>.parent()</b></code></a>
 * <a href="#append"><code>bonzo<b>.append()</b></code></a>
-* <a href="#appendto"><code>bonzo<b>.appendTo()</b></code></a>
+* <a href="#appendTo"><code>bonzo<b>.appendTo()</b></code></a>
 * <a href="#prepend"><code>bonzo<b>.prepend()</b></code></a>
 * <a href="#prependTo"><code>bonzo<b>.prependTo()</b></code></a>
 * <a href="#before"><code>bonzo<b>.before()</b></code></a>
 * <a href="#insertBefore"><code>bonzo<b>.insertBefore()</b></code></a>
 * <a href="#after"><code>bonzo<b>.after()</b></code></a>
-* <a href="#after"><code>bonzo<b>.insertAfter()</b></code></a>
-* <a href="#replacewith"><code>bonzo<b>.replaceWith()</b></code></a>
+* <a href="#insertAfter"><code>bonzo<b>.insertAfter()</b></code></a>
+* <a href="#replaceWith"><code>bonzo<b>.replaceWith()</b></code></a>
 * <a href="#css"><code>bonzo<b>.css()</b></code></a>
 * <a href="#offset"><code>bonzo<b>.offset()</b></code></a>
 * <a href="#dim"><code>bonzo<b>.dim()</b></code></a>
 * <a href="#attr"><code>bonzo<b>.attr()</b></code></a>
-* <a href="#removeattr"><code>bonzo<b>.removeattr()</b></code></a>
+* <a href="#removeAttr"><code>bonzo<b>.removeAttr()</b></code></a>
 * <a href="#val"><code>bonzo<b>.val()</b></code></a>
 * <a href="#data"><code>bonzo<b>.data()</b></code></a>
 * <a href="#remove"><code>bonzo<b>.remove()</b></code></a>
 * <a href="#empty"><code>bonzo<b>.empty()</b></code></a>
 * <a href="#detach"><code>bonzo<b>.detach()</b></code></a>
-* <a href="#scrollleft"><code>bonzo<b>.scrollLeft()</b></code></a>
-* <a href="#scrolltop"><code>bonzo<b>.scrollTop()</b></code></a>
+* <a href="#scrollLeft"><code>bonzo<b>.scrollLeft()</b></code></a>
+* <a href="#scrollTop"><code>bonzo<b>.scrollTop()</b></code></a>
 * <a href="#aug"><code>bonzo<b>.aug()</b></code></a>
 * <a href="#doc"><code>bonzo<b>.doc()</b></code></a>
 * <a href="#viewport"><code>bonzo<b>.viewport()</b></code></a>
-* <a href="#isancestor"><code>bonzo<b>.isAncestor()</b></code></a>
-* <a href="#noconflict"><code>bonzo<b>.noConflict()</b></code></a>
+* <a href="#isAncestor"><code>bonzo<b>.isAncestor()</b></code></a>
+* <a href="#noConflict"><code>bonzo<b>.noConflict()</b></code></a>
+
+---
+
+<a name="each"></a>
+### each(callback)
+
+`bonzo.each()` TODO
+
+<a name="map"></a>
+### map(callback)
+
+`bonzo.map()` TODO
+
+<a name="html"></a>
+### html([string])
+
+`bonzo.html()` TODO
+
+<a name="text"></a>
+### text([string])
+
+`bonzo.text()` TODO
+
+<a name="addClass"></a>
+### addClass(className)
+
+`bonzo.addClass(className)` TODO
+
+<a name="removeClass"></a>
+### removeClass(className)
+
+`bonzo.removeClass(className)` TODO
+
+<a name="hasClass"></a>
+### hasClass(className)
+
+`bonzo.hasClass(className)` TODO
+
+<a name="toggleClass"></a>
+### toggleClass(className)
+
+`bonzo.toggleClass(className)` TODO
+
+<a name="show"></a>
+### show()
+
+`bonzo.show()` TODO
+
+<a name="hide"></a>
+### hide()
+
+`bonzo.hide()` TODO
+
+<a name="first"></a>
+### first()
+
+`bonzo.first()` TODO
+
+<a name="last"></a>
+### last()
+
+`bonzo.last()` TODO
+
+<a name="focus"></a>
+### focus()
+
+`bonzo.focus()` TODO
+
+<a name="blur"></a>
+### blur()
+
+`bonzo.blur()` TODO
+
+<a name="next"></a>
+### next()
+
+`bonzo.next()` TODO
+
+<a name="previous"></a>
+### previous()
+
+`bonzo.previous()` TODO
+
+<a name="parent"></a>
+### parent()
+
+`bonzo.parent()` TODO
+
+<a name="append"></a>
+### append(html || node)
+
+`bonzo.append()` TODO
+
+<a name="appendTo"></a>
+### appendTo(target || selector)
+
+`bonzo.appendTo()` TODO
+
+<a name="prepend"></a>
+### prepend(html || node)
+
+`bonzo.prepend()` TODO
+
+<a name="prependTo"></a>
+### prependTo(target || selector)
+
+`bonzo.prepend()` TODO
+
+<a name="before"></a>
+### before(html || node)
+
+`bonzo.before()` TODO
+
+<a name="insertBefore"></a>
+### insertBefore(target || selector)
+
+`bonzo.insertBefore()` TODO
+
+<a name="after"></a>
+### after(html || node)
+
+`bonzo.after()` TODO
+
+<a name="insertAfter"></a>
+### insertAfter(target || selector)
+
+`bonzo.insertAfter()` TODO
+
+<a name="replaceWith"></a>
+### replaceWith(html || node)
+
+`bonzo.replaceWith()` TODO
+
+<a name="css"></a>
+### css()
+
+`bonzo.css()` TODO
+
+<a name="offset"></a>
+### offset()
+
+`bonzo.offset()` TODO
+
+<a name="dim"></a>
+### dim()
+
+`bonzo.dim()` TODO
+
+<a name="attr"></a>
+### attr()
+
+`bonzo.attr()` TODO
+
+<a name="removeAttr"></a>
+### removeAttr()
+
+`bonzo.removeAttr()` TODO
+
+<a name="val"></a>
+### val()
+
+`bonzo.val()` TODO
+
+<a name="data"></a>
+### data()
+
+`bonzo.data()` TODO
+
+<a name="remove"></a>
+### remove()
+
+`bonzo.remove()` TODO
+
+<a name="empty"></a>
+### empty()
+
+`bonzo.empty()` TODO
+
+<a name="detatch"></a>
+### detatch()
+
+`bonzo.detatch()` TODO
+
+<a name="scrollLeft"></a>
+### scrollLeft()
+
+`bonzo.scrollLeft()` TODO
+
+<a name="scrollTop"></a>
+### scrollTop()
+
+`bonzo.scrollTop()` TODO
+
+<a name="aug"></a>
+### aug()
+
+`bonzo.aug()` TODO
+
+<a name="viewport"></a>
+### viewport()
+
+`bonzo.viewport()` TODO
+
+<a name="isAncestor"></a>
+### isAncestor()
+
+`bonzo.isAncestor()` TODO
+
+<a name="noConflict"></a>
+### noConflict()
+
+`bonzo.noConflict()` TODO
+
+
 
 ## Added in the Ender bridge
 
 * <a href="#parents"><code>bonzo<b>.parents()</b></code></a>
-* <a href="#noconflict"><code>bonzo<b>.closest()</b></code></a>
-* <a href="#noconflict"><code>bonzo<b>.children()</b></code></a>
-* <a href="#noconflict"><code>bonzo<b>.width()</b></code></a>
-* <a href="#noconflict"><code>bonzo<b>.height()</b></code></a>
+* <a href="#closest"><code>bonzo<b>.closest()</b></code></a>
+* <a href="#children"><code>bonzo<b>.children()</b></code></a>
+* <a href="#width"><code>bonzo<b>.width()</b></code></a>
+* <a href="#height"><code>bonzo<b>.height()</b></code></a>
+
+
+<a name="parents"></a>
+### parents()
+
+`bonzo.parents()` TODO
+
+<a name="closest"></a>
+### closest()
+
+`bonzo.closest()` TODO
+
+<a name="children"></a>
+### children()
+
+`bonzo.children()` TODO
+
+<a name="width"></a>
+### width()
+
+`bonzo.width()` TODO
+
+<a name="height"></a>
+### height()
+
+`bonzo.height()` TODO
 
 ## Setting a query engine host
 
