@@ -97,12 +97,11 @@ $('p').color('aqua')
 
 ## Added in the Ender bridge
 
-  * parents(selector)
-  * closest(selector)
-  * siblings()
-  * children()
-  * width()
-  * height()
+* <a href="#parents"><code>bonzo<b>.parents()</b></code></a>
+* <a href="#noconflict"><code>bonzo<b>.closest()</b></code></a>
+* <a href="#noconflict"><code>bonzo<b>.children()</b></code></a>
+* <a href="#noconflict"><code>bonzo<b>.width()</b></code></a>
+* <a href="#noconflict"><code>bonzo<b>.height()</b></code></a>
 
 ## Setting a query engine host
 
